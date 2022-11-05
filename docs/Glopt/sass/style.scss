@@ -1,0 +1,46 @@
+@import "libs/bootstrap-reboot.min";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import "base/variables";
+@import "base/mixins";
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+@import "blocks/promo";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "blocks/section__title";
+@import "blocks/section__items-title";
+@import "blocks/section__items-descr";
+@import "blocks/_section__subtitle";
+@import "blocks/section__divider";
+@import "blocks/section__round";
+@import "blocks/job";
+@import "blocks/agent";
+@import "blocks/prices";
+@import "blocks/consultation";
+@import "blocks/managers";
+@import "blocks/scheme";
+@import "blocks/responds";
+@import "blocks/questions";
+@import "blocks/footer";
+
+
+
+@import "blocks/media/promo-media";
+@import "blocks/media/advantages-media";
+@import "blocks/media/job-media";
+@import "blocks/media/media-agent";
+@import "blocks/media/prices-media";
+@import "blocks/media/consultation-media";
+@import "blocks/media/_questions-media";
+@import "blocks/media/footer";
